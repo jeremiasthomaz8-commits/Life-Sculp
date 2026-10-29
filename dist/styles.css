@@ -24,3 +24,5 @@ h1,h2,h3,h4{font-family:"Eternal Spring",Georgia,serif;line-height:1.15} .sans-s
 .contents .index-item h3>span,.contents .index-item>a>span{color:#D7B580}
 .contents .index-item>a{border-top-color:#F5ECE32B}
 .contents .index-item>a:hover{color:#D7B580}
+
+.manifesto .read-text{font-family:"Made Tommy",sans-serif;font-weight:700;line-height:1.3;letter-spacing:-.02em}
