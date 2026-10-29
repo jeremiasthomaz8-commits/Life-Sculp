@@ -20,6 +20,12 @@ npm run build
 
 O comando verifica a sintaxe JavaScript, os arquivos referenciados, os links internos e a integridade básica da apresentação. O site é estático: a pasta `dist/` já contém os arquivos prontos para hospedagem.
 
+## Publicar na Vercel
+
+O arquivo `vercel.json` configura o framework como **Other**, executa `npm run build` e publica somente `dist/`. Ele substitui a detecção automática de Node.js, que tentava executar o servidor local como uma função e causava `FUNCTION_INVOCATION_FAILED`.
+
+Importe este repositório usando sua raiz como Root Directory. O arquivo `server.mjs` é usado apenas para desenvolvimento local. Novos pushes em `main` acionam a publicação pela integração com o GitHub.
+
 ## Estrutura
 
 - `dist/index.html`: conteúdo completo da apresentação.
