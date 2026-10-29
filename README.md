@@ -32,6 +32,6 @@ O comando verifica a sintaxe JavaScript, os arquivos referenciados, os links int
 
 ## Tipografia e aplicações
 
-O lettering original está preservado nos SVGs. Como os arquivos das fontes Eternal Spring e Made Tommy não foram fornecidos, os textos da apresentação usam Georgia e Arial, identificadas como substitutas na própria página.
+O lettering original está preservado nos SVGs. A fonte Eternal Spring fornecida está carregada localmente nos títulos. Arial permanece como substituta para Made Tommy, cujo arquivo ainda não foi fornecido.
 
 Os mockups e estudos digitais são aplicações ilustrativas da identidade visual.
