@@ -38,6 +38,6 @@ Importe este repositório usando sua raiz como Root Directory. O arquivo `server
 
 ## Tipografia e aplicações
 
-O lettering original está preservado nos SVGs. A fonte Eternal Spring fornecida está carregada localmente nos títulos. Arial permanece como substituta para Made Tommy, cujo arquivo ainda não foi fornecido.
+O lettering original está preservado nos SVGs. A fonte Eternal Spring fornecida está carregada localmente nos títulos. Made Tommy está carregada localmente nos textos complementares e elementos de apoio, com os sete pesos fornecidos.
 
 Os mockups e estudos digitais são aplicações ilustrativas da identidade visual.
