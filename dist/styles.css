@@ -19,3 +19,8 @@
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.hero-art,.chapter-art{transform:none!important}.read-text .word{opacity:1!important}.motion-enabled .reveal-logo,.motion-enabled .reveal-image .zoom-image>img{clip-path:none;transform:none}.motion-enabled .line-reveal>span{opacity:1;transform:none}.phone{transform:none}.zoom-image:hover>img{transform:none}}
 
 h1,h2,h3,h4{font-family:"Eternal Spring",Georgia,serif;line-height:1.15} .sans-specimen h4,.type-original h4.sans{font-family:"Made Tommy",sans-serif} .hero h1,.chapter h2{line-height:1.08;letter-spacing:-.02em}.mask{padding-bottom:.16em}.personality-grid h4{overflow-wrap:anywhere}
+.contents{background:var(--ink);color:var(--ivory)}
+.contents .index-item{background:#3D3229}
+.contents .index-item h3>span,.contents .index-item>a>span{color:#D7B580}
+.contents .index-item>a{border-top-color:#F5ECE32B}
+.contents .index-item>a:hover{color:#D7B580}
