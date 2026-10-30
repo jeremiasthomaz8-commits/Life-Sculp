@@ -26,3 +26,5 @@ h1,h2,h3,h4{font-family:"Eternal Spring",Georgia,serif;line-height:1.15} .sans-s
 .contents .index-item>a:hover{color:#D7B580}
 
 .manifesto .read-text{font-family:"Made Tommy",sans-serif;font-weight:400;line-height:1.3;letter-spacing:-.02em}
+
+.section-note{justify-content:flex-end}.type-scale>div{grid-template-columns:1fr}
