@@ -33,10 +33,10 @@ document.querySelectorAll('[data-color]').forEach(button => button.addEventListe
 }));
 
 const imageDialog = document.querySelector('.image-dialog');
-const descriptions = {recepcao:'Recepção Life Sculp / mockup fornecido',papelaria:'Papelaria Life Sculp / mockup fornecido',uniforme:'Uniforme Life Sculp / mockup fornecido'};
+const descriptions = {instagram:'Instagram Life Sculp / mockup fornecido',recepcao:'Recepção Life Sculp / mockup fornecido',papelaria:'Papelaria Life Sculp / mockup fornecido',uniforme:'Uniforme Life Sculp / mockup fornecido'};
 document.querySelectorAll('.zoom-image').forEach(button => button.addEventListener('click', () => {
   const key = button.dataset.image;
-  imageDialog.querySelector('img').src = `assets/${key}-1254.webp`;
+  imageDialog.querySelector('img').src = button.dataset.full || `assets/${key}-1254.webp`;
   imageDialog.querySelector('img').alt = button.querySelector('img').alt;
   imageDialog.querySelector('p').textContent = descriptions[key];
   imageDialog.showModal();
